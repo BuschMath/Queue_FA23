@@ -69,8 +69,8 @@ inline T Queue<T>::dequeue()
 	else
 	{
 		front = (front + 1) % size;
-		return data;
 	}
+	return data;
 
 }
 
